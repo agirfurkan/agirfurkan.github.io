@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Med Cabinet — Test codes</title>
+<style>
+  body { background:#fff; color:#111; font:17px/1.5 -apple-system, system-ui, sans-serif; margin:0; padding:32px 16px; }
+  main { max-width:760px; margin:0 auto; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:24px; margin-top:24px; }
+  figure { margin:0; text-align:center; } img { width:200px; height:200px; image-rendering:pixelated; }
+  .muted { color:#666; }
+</style>
+</head>
+<body>
+<main>
+<h1>Med Cabinet — sample box codes</h1>
+<p class="muted">GS1 DataMatrix codes in the format printed on Turkish medicine boxes (product number, serial, expiry date, lot), for testing the scanner without real boxes. Scan them from this screen with "Scan box code", or save an image and use "Read from library".</p>
+<div class="grid">
+  <figure><img src="parol.png" alt="Parol 500 mg Tablet, expiry 03/2027"><figcaption>Parol 500 mg Tablet<br><span class="muted">Exp. 03/2027</span></figcaption></figure>
+  <figure><img src="arveles.png" alt="Arveles 25 mg, expiry 09/2027"><figcaption>Arveles 25 mg<br><span class="muted">Exp. 09/2027</span></figcaption></figure>
+  <figure><img src="augmentin.png" alt="Augmentin 875/125 mg, expiry 06/2027"><figcaption>Augmentin 875/125 mg<br><span class="muted">Exp. 06/2027</span></figcaption></figure>
+</div>
+</main>
+</body>
+</html>
